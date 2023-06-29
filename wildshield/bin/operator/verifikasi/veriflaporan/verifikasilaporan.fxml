@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="472.0" prefWidth="1068.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TableView layoutY="1.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="472.0" prefWidth="1068.0" styleClass="body-tableview" stylesheets="@../../../css/verifLaporan.css">
+         <columns>
+            <TableColumn prefWidth="300.0" text="Nama Komunitas" />
+            <TableColumn prefWidth="300.0" text="Jenis Laporan" />
+            <TableColumn prefWidth="466.66656494140625" text="Laporan" />
+         </columns>
+      </TableView>
+   </children>
+</AnchorPane>

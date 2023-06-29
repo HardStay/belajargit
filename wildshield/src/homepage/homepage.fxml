@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Group?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="650.0" prefWidth="1200.0" style="-fx-background-color: #345149;" stylesheets="@../css/homepage.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Group layoutX="141.0" layoutY="67.0">
+         <children>
+            <Label layoutX="38.0" layoutY="3.0" prefHeight="33.0" prefWidth="126.0" text="Selamat Datang!" textFill="WHITE">
+               <font>
+                  <Font name="Futura Md BT Bold" size="14.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="38.0" fitWidth="41.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../logo/Selamat%20Datang.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Group>
+      <ImageView accessibleRole="BUTTON" fitHeight="60.0" fitWidth="63.0" layoutX="1117.0" layoutY="27.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../logo/logo%20profile.png" />
+         </image>
+      </ImageView>
+      <ScrollPane layoutY="116.0" prefHeight="534.0" prefWidth="1200.0" vbarPolicy="NEVER">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="479.0" prefWidth="1462.0">
+               <children>
+                  <Label layoutX="825.0" layoutY="76.0" text="EduWild" textAlignment="CENTER" textFill="#3d7463">
+                     <font>
+                        <Font name="Futura Md BT Bold" size="31.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="159.0" layoutY="76.0" text="Lapor" textFill="#3d7463">
+                     <font>
+                        <Font name="Futura Md BT Bold" size="31.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="489.0" layoutY="73.0" prefHeight="46.0" prefWidth="99.0" text="Pantau" textAlignment="CENTER" textFill="#3d7463">
+                     <font>
+                        <Font name="Futura Md BT Bold" size="31.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="66.0" layoutY="330.0" prefHeight="83.0" prefWidth="271.0" text="Pengguna memilih jenis laporan sesuai kasus yang akan dilaporkan untuk kemudian mengisi form yang sesuai jenis laporan" textAlignment="JUSTIFY" wrapText="true">
+                     <font>
+                        <Font name="Berlin Sans FB" size="16.0" />
+                     </font></Label>
+                  <Label layoutX="403.0" layoutY="330.0" prefHeight="83.0" prefWidth="271.0" text="Pengguna dapat memantau apakah ada situasi bahaya (satwa liar masuk ke permukiman warga) berada di dekat daerah pengguna" textAlignment="JUSTIFY" wrapText="true">
+                     <font>
+                        <Font name="Berlin Sans FB" size="16.0" />
+                     </font></Label>
+                  <Label layoutX="746.0" layoutY="330.0" prefHeight="59.0" prefWidth="271.0" text="pengguna untuk melihat konten edukasi yang berkaitan dengan satwa liar, berupa artikel, dan foto." textAlignment="JUSTIFY" wrapText="true">
+                     <font>
+                        <Font name="Berlin Sans FB" size="16.0" />
+                     </font>
+                  </Label>
+                  <Button layoutX="128.0" layoutY="157.0" mnemonicParsing="false" style="-fx-background-radius: 10;" styleClass="body-anchorpanelapor">
+                     <graphic>
+                        <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../logo/Lapor.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Button layoutX="456.0" layoutY="157.0" mnemonicParsing="false" style="-fx-background-radius: 10;" styleClass="body-anchorpanelapor">
+                     <graphic>
+                        <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" styleClass="body-anchorpanelapor">
+                           <image>
+                              <Image url="@../logo/Pantau.png" />
+                           </image>
+                        </ImageView>
+                     </graphic></Button>
+                  <Button layoutX="799.0" layoutY="157.0" mnemonicParsing="false" style="-fx-background-radius: 10;" styleClass="body-anchorpanelapor">
+                     <graphic>
+                        <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" styleClass="body-anchorpanelapor">
+                           <image>
+                              <Image url="@../logo/Edukasi.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Label layoutX="1157.0" layoutY="76.0" prefHeight="39.0" prefWidth="116.0" text="Donasi" textAlignment="CENTER" textFill="#3d7463">
+                     <font>
+                        <Font name="Futura Md BT Bold" size="27.0" />
+                     </font>
+                  </Label>
+                  <Button layoutX="1137.0" layoutY="157.0" mnemonicParsing="false" style="-fx-background-radius: 10;" styleClass="body-anchorpanelapor">
+                     <graphic>
+                        <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" styleClass="body-anchorpanelapor">
+                           <image>
+                              <Image url="@../logo/PenggalanganDana.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Label layoutX="1079.0" layoutY="330.0" prefHeight="59.0" prefWidth="271.0" text="Komunitas dapat mengajukan penggalangan dana dan &#10;nantinya akan diverifikasi oleh operator" textAlignment="JUSTIFY" wrapText="true">
+                     <font>
+                        <Font name="Berlin Sans FB" size="16.0" />
+                     </font>
+                  </Label>
+               </children></AnchorPane>
+        </content>
+      </ScrollPane>
+      <ImageView fitHeight="104.0" fitWidth="135.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../logo/logo%20WildShield.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

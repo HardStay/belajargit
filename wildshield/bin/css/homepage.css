@@ -1,0 +1,15 @@
+.headanchorpane-lapor {
+    -fx-background-color: #ffffff;
+}
+
+Button {
+    -fx-font-family: "Futura md BT";
+    -fx-background-color: #638b85;
+}
+
+.button:hover{
+    -fx-background-color: #adadad;
+}
+.body-anchorpanelapor{
+    -fx-background-color: #ffffff;
+}

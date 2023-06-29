@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="650.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ScrollPane hbarPolicy="NEVER" prefHeight="650.0" prefWidth="1200.0">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="954.0" prefWidth="1200.0" style="-fx-background-color: #586e68;">
+               <children>
+                  <ImageView fitHeight="289.0" fitWidth="441.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../logo/burung.jpg" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="454.0" layoutY="14.0" prefHeight="111.0" prefWidth="655.0" text="Leluhur Papua Membiakkan Burung Kasuari Sejak Zaman Pleistosen" textFill="#e2ff00" wrapText="true">
+                     <font>
+                        <Font name="Futura Md BT Bold Italic" size="34.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="449.0" layoutY="123.0" prefHeight="63.0" prefWidth="730.0" text="    Nationalgeographic.co.id—Pegunungan Papua Nugini menyajikan studi kasus penting untuk mengklarifikasi dampak pemburu pada lanskap " textFill="WHITE" wrapText="true">
+                     <font>
+                        <Font size="19.0" />
+                     </font></Label>
+                  <Label layoutX="450.0" layoutY="183.0" lineSpacing="1.5" prefHeight="122.0" prefWidth="728.0" text="hutan selama rentang waktu yang diperpanjang.Manusia telah mencapai wilayah tersebut setidaknya 42.000 tahun yang lalu, dan penyebaran manusia awal termasuk cepat dalam eksplorasi lingkungan pegunungan.Catatan arkeologis menunjukkan bahwa aktivitas awal di pegunungan melibatkan pengumpulan Pandan kacang" textAlignment="JUSTIFY" textFill="WHITE" wrapText="true">
+                     <font>
+                        <Font size="19.0" />
+                     </font></Label>
+                  <Button layoutX="494.0" layoutY="843.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="202.0" stylesheets="@../../css/halamanedukasi.css" text="BACK" textFill="WHITE">
+                     <font>
+                        <Font size="19.0" />
+                     </font></Button>
+                  <Label layoutX="14.0" layoutY="314.0" prefHeight="385.0" prefWidth="1162.0" text="pengangkutan ubi dari pantai, pembakaran hutan, perburuan marsupial, dan produksi kapak batu besar.Studi genomik manusia modern&#10;menunjukkan populasi Pleistosen yang sering mengunjungi zona dataran tinggi berjumlah beberapa ratus atau ribuan orang.&#10;Populasi ini relatif stabil sampai akhir Zaman Es terakhir ketika populasi meningkat pesat, dengan masyarakat pegunungan menjadi &#10;relatif terisolasi dari dataran rendah pada awal periode Holosen.Meskipun ada bukti bahwa manusia berbagi zona pegunungan dengan&#10;megafauna, termasuk kanguru raksasa, wombat raksasa, harimau Tasmania, dan kasuari selama beberapa milenium, tidak jelas sejauh&#10;mana spesies ini menjadi fokus perburuan awal.“Kami menyelidiki bagaimana pemburu-pengumpul hutan hujan mengelola sumber&#10;daya di pegunungan Papua Nugini dan menyajikan beberapa dokumentasi awal Pleistosen Akhir melalui eksploitasi kasuari pertengahan&#10;Holosen,” kata antropolog Universitas Negeri Pennsylvania, Kristina Douglass dan rekan-rekannya. dikutip dari jurnal Prosiding National&#10;Academy of Sciences.Pertama, para peneliti mengembangkan metode baru untuk menentukan berapa umur embrio ayam ketika telur&#10;dipanen.“Saya telah meneliti kulit telur dari situs arkeologi selama bertahun-tahun,” jelas Dr. Douglass.“Saya menemukan penelitian&#10;tentang kulit telur kalkun yang menunjukkan perubahan kulit telur selama perkembangan yang merupakan indikasi usia. Saya &#10;memutuskan ini akan menjadi pendekatan yang berguna.”Para ilmuwan kemudian beralih ke koleksi kulit telur warisan dari dua situs&#10;—Yuku dan Kiowa—di Papua Nugini.“Situs-situs ini melestarikan urutan zooarkeologi yang memungkinkan kita untuk memeriksa&#10;dinamika temporal perburuan dan pemusnahan fauna,” kata mereka." textFill="WHITE">
+                     <font>
+                        <Font size="19.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+        </content>
+      </ScrollPane>
+   </children>
+</AnchorPane>

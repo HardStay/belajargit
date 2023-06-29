@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="650.0" prefWidth="1200.0" styleClass="headanchorpane-lapor" stylesheets="@../css/multiplescene.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="multiplescene.UtamaController">
+   <children>
+      <BorderPane fx:id="mainPane" prefHeight="650.0" prefWidth="1200.0">
+         <top>
+            <AnchorPane prefHeight="91.0" prefWidth="1200.0" BorderPane.alignment="CENTER">
+               <children>
+                  <ImageView fitHeight="90.0" fitWidth="120.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../logo/logo%20WildShield.png" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="554.0" prefHeight="100.0" prefWidth="180.0" text="Home Page" textAlignment="CENTER">
+                     <font>
+                        <Font name="Arial Bold" size="30.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+         </top>
+         <left>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0" styleClass="headanchorpane-lapor" BorderPane.alignment="CENTER">
+               <children>
+                  <Button layoutX="14.0" layoutY="53.0" mnemonicParsing="false" onAction="#keLapor" prefHeight="42.0" prefWidth="80.0" text="Lapor" textFill="WHITE" />
+                  <Button layoutX="13.0" layoutY="164.0" mnemonicParsing="false" onAction="#kePantau" prefHeight="42.0" prefWidth="80.0" text="Pantau" textFill="WHITE" />
+                  <Button layoutX="15.0" layoutY="286.0" mnemonicParsing="false" onAction="#keEdukasi" prefHeight="42.0" prefWidth="80.0" text="Edukasi" textFill="WHITE" />
+               </children>
+            </AnchorPane>
+         </left>
+         <center>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="619.0" prefWidth="1087.0" styleClass="body-anchorpanelapor" BorderPane.alignment="CENTER" />
+         </center>
+      </BorderPane>
+   </children>
+</AnchorPane>

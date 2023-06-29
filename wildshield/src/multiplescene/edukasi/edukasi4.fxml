@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="650.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ScrollPane hbarPolicy="NEVER" prefHeight="652.0" prefWidth="1200.0">
+         <content>
+            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="961.0" prefWidth="1200.0" style="-fx-background-color: #586e68;">
+               <children>
+                  <ImageView fitHeight="289.0" fitWidth="441.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../logo/serigala.jpg" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="469.0" layoutY="40.0" prefHeight="105.0" prefWidth="710.0" text="Alasan yang Perlu Anda Ketahui agar Tidak Memelihara Satwa Liar" textFill="#e2ff00" wrapText="true">
+                     <font>
+                        <Font name="Futura Md BT Bold Italic" size="34.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="462.0" layoutY="139.0" prefHeight="177.0" prefWidth="713.0" text="Nationalgeographic.co.id - Tren memelihara satwa liar di kalangan masyarakat bermunculan belakangan ini. Mereka yang memelihara satwa liar kebanyakan adalah tokoh masyarakat seperti influencer dan pejabat publik. Padahal, kedekatan mereka, bisa berbahaya bagi manusia dan mereka sendiri, apalagi jika dikelola dengan cara yang kurang tepat." textFill="WHITE" wrapText="true">
+                     <font>
+                        <Font size="19.0" />
+                     </font></Label>
+                  <Label layoutX="11.0" layoutY="301.0" prefHeight="487.0" prefWidth="1151.0" text="Risiko dari kedekatan manusia dengan satwa liar adalah penularan virus zoonosis. Di alam liar, satwa memiliki virusnya masing-masing, jika jarak kehidupannya dengan manusia, penularan ke manusia sangat tinggi. Belum lagi, mungkin virus yang kita miliki juga bisa terpapar pada mereka.&#10;&#10;&quot;Masalahnya, orang-orang ini punya pengaruh yang nantinya menjadi contoh,&quot; kata peneliti alumni Sekolah Ilmu Lingkungan Universitas Indonesia Rheza Maulana. Dia menerangkan pendapatnya dalam program rutin National Geographic Indonesia Bincang Redaksi-54 bertajuk Salah Kaprah Kita dengan Konservasi Satwa pada 29 September 2022.&#10;&#10;&quot;Orang Indonesia itu FOMO (fear of missing out),&quot; tambah Nur Purba Priambada, supervisor animal management Yayasan Inisiasi Alam Rehabilitasi Indonesia (YIARI) lewat forum yang sama. &quot;Kita lihat kalau awal-awal pandemi itu kita latah bersepeda, kita ikutan keluar bersepeda alih-alih diam di rumah saja.&quot;&#10;Satwa liar terancam karena habitatnya menipis. Mereka berpindah untuk beradaptasi dari kepunahan mereka karena alih fungsi lahan, perburuan, pembakaran dan penebangan hutan, dan krisis iklim. Berbagai penelitian menjelaskan, fenomena ini membawa manusia pada pandemi seperti yang dialami lewat COVID-19, virus nipah, dan cacar monyet.&#10;Fenomena pemeliharaan satwa liar ini jadi sorotan bagi Rheza terkait kedekatannya dengan manusia. Dia mempublikasikan penelitiannya di Jurnal Pengelolaan Lingkungan Berkelanjutan pada 31 Agustus 2022. Makalahnya berjudul &quot;Paradoks kepemilikan satwa liar, di tengah pandemi penyakit yang ditularkan oleh satwa liar.&quot;" textFill="WHITE" wrapText="true">
+                     <font>
+                        <Font size="19.0" />
+                     </font></Label>
+                  <Button layoutX="524.0" layoutY="878.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="163.0" stylesheets="@../../css/halamanedukasi.css" text="BACK" textFill="WHITE">
+                     <font>
+                        <Font size="19.0" />
+                     </font>
+                  </Button>
+               </children>
+            </AnchorPane>
+         </content>
+      </ScrollPane>
+   </children>
+</AnchorPane>

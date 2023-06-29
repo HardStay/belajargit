@@ -1,0 +1,31 @@
+.headanchorpane-lapor {
+    -fx-background-color: #345149;
+    
+}
+
+
+
+.body-anchorpane{
+    -fx-background-color: #164289;
+}
+
+.button {
+    -fx-font-family: "futura md bt";
+    background-color: #0e907c;
+    -fx-background-color: #0e907c;
+  }
+  .button:hover {
+    background-color: #09574b;
+    -fx-background-color: #09574b;
+  }
+  .button:pressed {
+    background-color: #b0edd7;
+    -fx-background-color: #b0edd7;
+  }
+  .button:focused {
+    background-color: #50786d;
+    -fx-background-color: #50786d;
+  }
+  .body-anchorpanestatus {
+    -fx-background-color:#345149;
+  }
